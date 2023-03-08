@@ -1,0 +1,851 @@
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="Subodh Wasnik" width="80" style="border-radius: 30px;">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Subodh Wasnik">Subodh Wasnik</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:subodh123wasnik@gmail.com" class="contact-link">subodh123wasnik@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+918459146214" class="contact-link">+91 8459146214</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 07, 2000</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Chennai, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/subodh-wasnik-2b5091174/" class="social-link">
+              <iconify-icon icon="simple-icons:linkedin"></iconify-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/sbwasnik" class="social-link">
+              <iconify-icon icon="simple-icons:github"></iconify-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://codepen.io/sbwasnik" class="social-link">
+              <iconify-icon icon="simple-icons:codepen"></iconify-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://leetcode.com/subodh123wasnik/" class="social-link">
+              <iconify-icon icon="simple-icons:leetcode"></iconify-icon>
+            </a>
+          </li>
+
+          
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Project</button>
+          </li>
+
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a final year student at IIT Madras pursuing Naval Architecture and Ocean Engineering having experience in Subject Matter Expert and Web Development.
+          </p>
+
+          <p>
+            I have a keen interest in Data Structures and Algorithms. Apart from that, I'm enthusiastic about Machine Learning, Artificial Intelligence, and Data Science.
+            I also have an interest in game development and am on a basic level of learning the same. 
+          </p>
+
+          <p>
+            My hobbies includes bengie watching anime, and web series. I also love to play football and atheletics.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  Intermediate experience in creating animations using pure HTML, CSS, and JS.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Basic experience in creating a working responsive web page.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-writing-100.png" alt="writing icon" width="50">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Subject Matter Expert</h4>
+
+                <p class="service-item-text">
+                  Professional expert at creating academic content of Maths at all levels.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icons8-edit-image-96.png" alt="editing icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Editing</h4>
+
+                <p class="service-item-text">
+                  I make quality edits to photos and videos and create video animations.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+      
+
+
+        <!-- 
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+
+          </section> 
+
+        </div>
+
+
+      
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title"> Resume </h2>
+          <a class="resume-link" href = "https://drive.google.com/file/d/1zdrEggbIW_konVXLRlBO6gxFwbIKcqRs/view?usp=sharing" download = "file">
+            <ion-icon name="link"></ion-icon>
+          </a>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Indian Institute of Technology, Madras</h4>
+
+              <span>2018 — 2023</span>
+
+              <p class="timeline-text">
+                Pursuing Integrated B.Tech and M.Tech in Naval Architecture and Ocean Engineering.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Yashoda Public Higher Secondary School, Nagpur</h4>
+
+              <span>2016 — 2018</span>
+
+              <p class="timeline-text">
+                XII (Maharashtra State Board)<br>
+                Score: 83.54%
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Sandipani School, Nagpur</h4>
+
+              <span>2016</span>
+
+              <p class="timeline-text">
+                X (CBSE)<br>
+                Score: 91.2%
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Subject Matter Expert</h4>
+              <h4 class="company">Paradise Eduservices | Internship</h4>
+              <span>Feb 2022 — Apr 2022</span>
+
+              <p class="timeline-text">
+                Created Solutions Engineering Level Mathematics problems in MS Word using MathType and Latex.<br>
+                Worked on the company portal and submitted solutions for questions from classes 6 to 10.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Developer</h4>
+              <h4 class="company">Learnovate ECommerce | Internship</h4>
+              <span>Sep 2021 — Oct 2021</span>
+
+              <p class="timeline-text">
+                Effectively learned the making of a webpage using HTLM, CSS, and JavaScript.<br>
+                Created a simple responsive basic application form using HTLM and CSS.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Solution Writing Expert</h4>
+              <h4 class="company">Digipplus | Internship</h4>
+              <span>Apr 2021 — Sep 2021</span>
+
+              <p class="timeline-text">
+                Created solutions for K-12 and Engineering level Maths problems.<br>
+Used Mathtype and LaTeX efficiently to create the solution documents.<br>
+Worked on the company portal to create and submit the solutions, as per the client's requirements.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Subject Matter Expert</h4>
+              <h4 class="company">Inhaltmart | Internship</h4>
+              <span>Mar 2021 — Jul 2021</span>
+
+              <p class="timeline-text">
+                Created solutions for K-12 and Engineering level Maths problems.<br>
+Used Mathtype and LaTeX efficiently to create the solution documents.
+              </p>
+
+            </li>
+            
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Full Stack Developer</h4>
+              <h4 class="company">BrainZ1 Techub | Internship</h4>
+              <span>Sep 2020 — Mar 2021</span>
+
+              <p class="timeline-text">
+                Learned and worked on the front-end using HTML, CSS, JavaScript, and Bootstrap; the back-end using Java and applications.<br>
+Built sample responsive webpages like e-commerce websites, portfolios, etc.<br>
+Created small animation using the front-end.<br>
+Learned and created a website sitemap diagram for an online movie streaming app.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Academic Content Developer - Mathematics</h4>
+              <h4 class="company">ICAD School of Learning | Internship</h4>
+              <span>Dec 2020 — Jan 2021</span>
+
+              <p class="timeline-text">
+                Created successful handwritten solutions to JEE-level (Mains and Advanced) Maths problems.<br>
+Produced solutions for the Daily Practice Problems of the coaching institute.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Creator</h4>
+              <h4 class="company">IITM TV | Position of Responsibiity</h4>
+              <span>May 2019 — May 2020</span>
+
+              <p class="timeline-text">
+                Created quality content for IITM TV YouTube channel for branding IIT Madras.<br>
+Edited and published content amounting to 10 videos viewed by more than 2.5 lakh people.<br>
+Worked on editing software like Adobe Premier Pro, After Effects, and Photoshop to create content.
+              </p>
+
+            </li>
+
+
+
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Structures and Algorithms</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">AI/ML and DS</h5>
+                <data value="40">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 40%;"></div>
+              </div>
+
+            </li>
+
+            
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Social Media Content Creation</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Game Development</h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+
+           
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="project">
+
+        <header>
+          <h2 class="h2 article-title">Project</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design and Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AI/ML and DS</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Others</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Design and Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AI/ML and DS</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Others</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="ai/ml and ds">
+              <a href="#">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/project-1.jpg" alt="sea surface current" loading="lazy">
+                </figure>
+                <h3 class="project-title">Estimating Sea Surface Current</h3>
+                <p class="project-category">AI/ML and DS</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design and applications">
+              <a href="https://sbwasnik.github.io/Mouse_rollover_zoom/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>                
+                  <img src="./assets/images/mouse_rollover_zoom.jpg" alt="Mouse Rollover Zoom" loading="lazy">
+                </figure>
+                <h3 class="project-title">Mouse Rollover Zoom</h3>
+                <p class="project-category">Web Design and Applications</p>
+              </a>
+            </li>
+            
+
+            <li class="project-item  active" data-filter-item data-category="web design and applications">
+              <a href="https://sbwasnik.github.io/mail_button_animation/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>                  
+                  <img src="./assets/images/mail_animation.jpg" alt="Mail Animation" loading="lazy">
+                </figure>
+                <h3 class="project-title">Mail Animation</h3>
+                <p class="project-category">Web Design and Applications</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design and applications">
+              <a href="https://sbwasnik.github.io/solar_system_animation/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>                  
+                  <img src="./assets/images/solar_system.jpg" alt="Solar System Animation" loading="lazy">
+                </figure>
+                <h3 class="project-title">Solar System Animation</h3>
+                <p class="project-category">Web Design and Applications</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design and applications">
+              <a href="https://sbwasnik.github.io/loading_animation/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>                  
+                  <img src="./assets/images/loading.jpg" alt="Loading Animation" loading="lazy">
+                </figure>
+                <h3 class="project-title">Loading Animation</h3>
+                <p class="project-category">Web Design and Applications</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design and applications">
+              <a href="https://sbwasnik.github.io/To-do-list/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>                  
+                  <img src="./assets/images/To_Do_List.png" alt="To-Do List" loading="lazy">
+                </figure>
+                <h3 class="project-title">To-Do List</h3>
+                <p class="project-category">Web Design and Applications</p>
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="ai/ml and ds">
+              <a href="https://github.com/sbwasnik/netflix_recommendation">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>                  
+                  <img src="./assets/images/netflix-Recommenation.jpg" alt="Netflix Recommendation" loading="lazy">
+                </figure>
+                <h3 class="project-title">Netflix Recommendation</h3>
+                <p class="project-category">AI/ML and DS</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ai/ml and ds">
+              <a href="https://github.com/sbwasnik/California-Housing-Price-Prediction">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>                  
+                  <img src="./assets/images/Housing_Prediction.jpeg" alt="California House Price Prediction" loading="lazy">
+                </figure>
+                <h3 class="project-title">California Housing Price Prediction</h3>
+                <p class="project-category">AI/ML and DS</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="others">
+              <a href="https://github.com/sbwasnik/waveload_estimation">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>                  
+                  <img src="./assets/images/Waveload_Estimation.jpg" alt="WaveLoad Estimation" loading="lazy">
+                </figure>
+                <h3 class="project-title">WaveLoad Estimation</h3>
+                <p class="project-category">Others</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="others">
+              <a href="https://github.com/sbwasnik/jumpy_bunny_game">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>                  
+                  <img src="./assets/images/Jumpy_Bunny.jpg" alt="Jumpy Bunny" loading="lazy">
+                </figure>
+                <h3 class="project-title">Jumpy Bunny</h3>
+                <p class="project-category">Others</p>
+              </a>
+            </li>
+
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
