@@ -755,12 +755,11 @@ main {
   color: var(--white-2);
   text-decoration: none;
   position: relative;
-  width: min-content;
+  /* width: min-content; */
   margin-top: -17px;
   padding-bottom: 14px;
-  font-size: var(--fs-1);
+  font-size: var(--fs-8);
   color: var(--white-2);
-  text-transform: capitalize;
 }
 .resume-link:hover{
   color:var(--light-gray-70);
@@ -833,12 +832,24 @@ main {
 * skills 
 */
 
-.skills-title { margin-bottom: 20px; }
 
-.skills-list { padding: 20px; }
+.skills-title {
+  margin-bottom: 20px;
+}
 
+.skills-list {
+  padding: 20px;
+}
 
-.skills-item:not(:last-child) { margin-bottom: 15px; }
+.skills-item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.skill-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 
 .skill .title-wrapper {
   display: flex;
@@ -866,9 +877,19 @@ main {
   border-radius: inherit;
 }
 
+.skill-image-wrapper {
+  display: flex;
+  justify-content: start;
+}
 
+.skill-image {
+  width: 30px; 
+  height: 30px;
+}
 
-
+.skill-details {
+  flex: 1; 
+}
 
 /*-----------------------------------*\
 #PORTFOLIO
@@ -1641,4 +1662,3 @@ main {
   font-weight: 100;
   font-size: 13px;
 }
-

@@ -158,3 +158,17 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
+
+
+// Skills
+document.querySelectorAll(".circlechart").forEach((chart) => {
+  const percentage = chart.getAttribute("data-percentage");
+  const progressCircle = chart.querySelector(".circle-progress");
+  const offset = 100 - percentage; // Calculate the offset (100% - percentage)
+  
+  // Set the dynamic stroke-dashoffset for progress circle
+  progressCircle.style.strokeDashoffset = offset;
+  
+  // Update the percentage text inside the circle
+  chart.querySelector(".percentage-text").textContent = `${percentage}%`;
+});
